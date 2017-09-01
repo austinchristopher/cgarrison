@@ -683,7 +683,7 @@ main {
   }
   &__excerpt {
     p {
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Gentium Basic', serif;
       font-size: 48px;
       font-weight: 700;
     }
@@ -691,7 +691,7 @@ main {
   &__content {
     padding: 0px 10px 0px 10px;
     opacity: 0;
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     // padding: 20px;
     width: 100%;
     background-color: rgba(165, 241, 237, 0.5);
@@ -718,9 +718,12 @@ main {
       font-weight: 500;
     }
     .content__text {
+      font-family: 'Gentium Basic', serif;
       p {
         font-size: 16px;
         line-height: 24px;
+        font-family: 'Gentium Basic', serif;
+
         em {
           background-color: $turquoise1;
           font-style: normal;
@@ -880,7 +883,7 @@ Single project styles
 
 .project {
   &__excerpt {
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     font-weight: 500;
     margin-left: 15%;
     @media screen and (min-width: 768px) {
@@ -1010,7 +1013,7 @@ Single project styles
         .wp-caption-text {
           font-size: 12px;
           line-height: 18px;
-          font-family: 'Eczar', sans-serif;
+          font-family: 'Eczar', serif;
           padding: 20px;
           width: 215px;
           @media screen and (min-width: 768px) {
@@ -1093,7 +1096,7 @@ Single project styles
   }
 
   &__domains {
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     width: 230px;
     background-color: rgba($turquoise3, .25);
     margin-top: 90px;
@@ -1104,7 +1107,7 @@ Single project styles
       margin-top: 0;
       bottom: -40px;
       right: 25%;
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Eczar', serif;
       width: 310px;
       background-color: rgba($turquoise3, .25);
     }
@@ -1154,7 +1157,7 @@ Single project styles
       font-size: 16px;
       line-height: 28px;
       font-weight: 900;
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Eczar', serif;
       background-color: $lizard;
       padding: 10px 15px;
       text-decoration: none;
@@ -1392,7 +1395,7 @@ Single project styles
     padding: 20px 0 100px;
   }
   p {
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     color: #fff;
     font-weight: 700;
     font-size: 18px;

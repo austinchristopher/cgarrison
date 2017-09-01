@@ -847,13 +847,13 @@ main {
       left: 0;
       background-color: rgba(165, 241, 237, 0.5); }
   .projects__excerpt p {
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Gentium Basic', serif;
     font-size: 48px;
     font-weight: 700; }
   .projects__content {
     padding: 0px 10px 0px 10px;
     opacity: 0;
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     width: 100%;
     background-color: rgba(165, 241, 237, 0.5);
     position: absolute;
@@ -878,19 +878,22 @@ main {
       padding: 0 4px;
       overflow: auto;
       font-weight: 500; }
-    .projects__content .content__text p {
-      font-size: 16px;
-      line-height: 24px; }
-      .projects__content .content__text p em {
+    .projects__content .content__text {
+      font-family: 'Gentium Basic', serif; }
+      .projects__content .content__text p {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Gentium Basic', serif; }
+        .projects__content .content__text p em {
+          background-color: #A5F1ED;
+          font-style: normal;
+          padding: 0 4px;
+          overflow: auto; }
+      .projects__content .content__text em {
         background-color: #A5F1ED;
         font-style: normal;
         padding: 0 4px;
         overflow: auto; }
-    .projects__content .content__text em {
-      background-color: #A5F1ED;
-      font-style: normal;
-      padding: 0 4px;
-      overflow: auto; }
     .projects__content .content__cta {
       display: inline-block;
       position: absolute;
@@ -1025,7 +1028,7 @@ main {
 Single project styles
 **/
 .project__excerpt {
-  font-family: 'Eczar', sans-serif;
+  font-family: 'Eczar', serif;
   font-weight: 500;
   margin-left: 15%; }
   @media screen and (min-width: 768px) {
@@ -1145,7 +1148,7 @@ Single project styles
     .project__content > .wp-caption .wp-caption-text {
       font-size: 12px;
       line-height: 18px;
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Eczar', serif;
       padding: 20px;
       width: 215px; }
       @media screen and (min-width: 768px) {
@@ -1217,7 +1220,7 @@ Single project styles
           top: 27px; } }
 
 .project-title__domains {
-  font-family: 'Eczar', sans-serif;
+  font-family: 'Eczar', serif;
   width: 230px;
   background-color: rgba(80, 227, 219, 0.25);
   margin-top: 90px;
@@ -1229,7 +1232,7 @@ Single project styles
       margin-top: 0;
       bottom: -40px;
       right: 25%;
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Eczar', serif;
       width: 310px;
       background-color: rgba(80, 227, 219, 0.25); } }
   .project-title__domains h5 {
@@ -1270,7 +1273,7 @@ Single project styles
       font-size: 16px;
       line-height: 28px;
       font-weight: 900;
-      font-family: 'Eczar', sans-serif;
+      font-family: 'Eczar', serif;
       background-color: #C0E730;
       padding: 10px 15px;
       text-decoration: none; }
@@ -1476,7 +1479,7 @@ Single project styles
     .nda {
       padding: 20px 0 100px; } }
   .nda p {
-    font-family: 'Eczar', sans-serif;
+    font-family: 'Eczar', serif;
     color: #fff;
     font-weight: 700;
     font-size: 18px;

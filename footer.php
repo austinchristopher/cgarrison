@@ -72,7 +72,7 @@ if (!is_front_page()) {
     </div>
   </section>
 
-<?php print_r($nextid); ?>
+
 
   <section id="next-project" class="next-project highlight">
     <header>
@@ -105,4 +105,3 @@ if (!is_front_page()) {
 
 <script src="<?php echo get_template_directory_uri(); ?>/scripts/smooth-scroll.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/scripts/main.js"></script>
-
