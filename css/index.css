@@ -520,7 +520,7 @@ main {
   padding: 5px;
   z-index: 10; }
   .main-nav__mobile-expander:before {
-    background-color: #C0E730;
+    background-color: white;
     height: 20px;
     content: '';
     position: absolute;
@@ -531,7 +531,7 @@ main {
     -o-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
   .main-nav__mobile-expander:after {
-    background-color: #C0E730;
+    background-color: white;
     height: 20px;
     top: 20px;
     content: '';
@@ -799,7 +799,8 @@ main {
         -webkit-box-shadow: none;
         box-shadow: none; }
         .projects__item > a:hover .projects__content {
-          opacity: 1; }
+          opacity: 1;
+          background-color: rgba(165, 241, 237, 0.4); }
           .projects__item > a:hover .projects__content em {
             background-color: #A5F1ED;
             font-style: normal;
@@ -825,7 +826,8 @@ main {
     .projects__list-1 .projects__item:nth-child(even) {
       width: 100%; }
     .projects__list-1 .projects__content {
-      right: 0; }
+      right: 0;
+      background-color: rgba(165, 241, 237, 0.5); }
   .projects__list-2 {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
@@ -842,16 +844,18 @@ main {
         .projects__list-2 .projects__item:nth-child(even) {
           width: 400px; } }
     .projects__list-2 .projects__content {
-      left: 0; }
+      left: 0;
+      background-color: rgba(165, 241, 237, 0.5); }
   .projects__excerpt p {
     font-family: 'Eczar', sans-serif;
     font-size: 48px;
     font-weight: 700; }
   .projects__content {
+    padding: 0px 10px 0px 10px;
     opacity: 0;
     font-family: 'Eczar', sans-serif;
     width: 100%;
-    background-color: #A5F1ED;
+    background-color: rgba(165, 241, 237, 0.5);
     position: absolute;
     -webkit-transition: opacity 100ms;
     -o-transition: opacity 100ms;
@@ -863,8 +867,8 @@ main {
         margin: 20px 0px 0px 0px;
         height: 230px; } }
     .projects__content .content__title {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 28px;
       font-weight: 700; }
     .projects__content .content__tags {
       background-color: #A5F1ED;

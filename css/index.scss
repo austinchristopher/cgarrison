@@ -306,7 +306,7 @@ main {
     padding: 5px;
     z-index: 10;
     &:before {
-      background-color: $lizard;
+      background-color: white;
       height: 20px;
       content: '';
       position: absolute;
@@ -316,7 +316,8 @@ main {
       transition: all 150ms ease-in-out;
     }
     &:after {
-      background-color: $lizard;
+      background-color: white;
+
       height: 20px;
       top: 20px;
       content: '';
@@ -627,6 +628,7 @@ main {
         box-shadow: none;
         .projects__content {
           opacity: 1;
+          background-color: rgba(165, 241, 237, 0.4);
           em {
             background-color: $turquoise1;
             font-style: normal;
@@ -657,6 +659,7 @@ main {
     }
     .projects__content {
       right: 0;
+      background-color: rgba(165, 241, 237, 0.5);
     }
   }
   &__list-2 {
@@ -675,6 +678,7 @@ main {
     }
     .projects__content {
       left: 0;
+      background-color: rgba(165, 241, 237, 0.5);
     }
   }
   &__excerpt {
@@ -685,11 +689,12 @@ main {
     }
   }
   &__content {
+    padding: 0px 10px 0px 10px;
     opacity: 0;
     font-family: 'Eczar', sans-serif;
     // padding: 20px;
     width: 100%;
-    background-color: $turquoise1;
+    background-color: rgba(165, 241, 237, 0.5);
     position: absolute;
     transition: opacity 100ms;
     @media screen and (min-width: 768px) {
@@ -699,8 +704,8 @@ main {
       height: 230px;
     }
     .content__title {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 28px;
       font-weight: 700;
     }
     .content__tags {
