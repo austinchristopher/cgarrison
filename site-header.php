@@ -12,12 +12,11 @@
 
   <!-- mobile nav -->
   <nav class="site-header__main-nav--mobile">
-    <div class="main-nav__mobile-expander">
-      <div class="mobile-expander__lines">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <div class="main-nav__mobile-expander"></div>
+    <div class="mobile-expander__lines">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
     <?php wp_nav_menu(array('menu' => 'main')); ?>
   </nav>

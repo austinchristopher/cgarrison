@@ -45,7 +45,8 @@ mainMenuLinks.forEach(function(item) {
   });
 });
 
-var mobileMenu = document.querySelector('.main-nav__mobile-expander');
-mobileMenu.addEventListener('click', function() {
+var mobileExpanderHitbox = document.querySelector('.mobile-expander__lines');
+mobileExpanderHitbox.addEventListener('click', function() {
+  console.log('click');
   document.querySelector('.site-header__main-nav--mobile').classList.toggle('open');
 });
