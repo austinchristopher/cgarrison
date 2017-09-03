@@ -638,14 +638,14 @@ main {
           margin-top: -60px; } }
   .hero__title {
     position: relative;
-    width: 280px;
+    width: 300px;
     left: 20px;
     top: 65px; }
     @media screen and (min-width: 768px) {
       .hero__title {
         left: 15%;
         top: -58px;
-        width: 550px;
+        width: 600px;
         position: absolute;
         z-index: 2; } }
     @media screen and (min-width: 1024px) {
@@ -657,7 +657,7 @@ main {
     .hero__title:before {
       background-color: #B8F4F1;
       content: '';
-      width: 50%;
+      width: 100%;
       display: block;
       position: absolute;
       z-index: -1;
@@ -1023,23 +1023,27 @@ Single project styles
         height: 500px; } }
 
 .project__content {
-  margin-top: 140px; }
+  margin-top: 60px; }
   @media screen and (min-width: 768px) {
     .project__content {
       margin-top: 100px; } }
   .project__content > h3, .project__content > h4, .project__content > p {
     margin-left: 15%;
+    margin-right: 20px;
     margin-top: 20px; }
     @media screen and (min-width: 768px) {
       .project__content > h3, .project__content > h4, .project__content > p {
         margin-top: 24px;
+        margin-right: 0px;
         width: 475px; } }
     @media screen and (min-width: 1024px) {
       .project__content > h3, .project__content > h4, .project__content > p {
-        width: 575px; } }
+        width: 575px;
+        margin-right: 0px; } }
     @media screen and (min-width: 1440px) {
       .project__content > h3, .project__content > h4, .project__content > p {
-        width: 675px; } }
+        width: 675px;
+        margin-right: 0px; } }
   .project__content > p {
     font-size: 16px; }
     @media screen and (min-width: 768px) {
@@ -1100,7 +1104,7 @@ Single project styles
       line-height: 18px;
       font-family: 'Eczar', serif;
       padding: 20px;
-      width: 215px; }
+      width: 320px; }
       @media screen and (min-width: 768px) {
         .project__content > .wp-caption .wp-caption-text {
           font-size: 16px;
@@ -1170,13 +1174,10 @@ Single project styles
           top: 27px; } }
 
 .project-title__domains {
-  font-family: 'Eczar', serif;
-  width: 230px;
-  background-color: rgba(80, 227, 219, 0.25);
-  margin-top: 90px;
-  padding: 20px; }
+  display: none; }
   @media screen and (min-width: 768px) {
     .project-title__domains {
+      display: block;
       padding: 30px 20px;
       position: absolute;
       margin-top: 0;
