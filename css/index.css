@@ -464,19 +464,6 @@ main {
           text-decoration: none;
           display: inline-block;
           z-index: 1; }
-          .site-header__main-nav--mobile .menu-main-container ul li a:hover {
-            position: relative; }
-            .site-header__main-nav--mobile .menu-main-container ul li a:hover:before {
-              -webkit-animation: mobileMenuHighlight 200ms forwards;
-              animation: mobileMenuHighlight 200ms forwards;
-              background-color: #C0E730;
-              content: '';
-              height: 15px;
-              display: block;
-              position: absolute;
-              z-index: -1;
-              left: 32px;
-              top: 30px; }
 
 .main-nav__mobile-expander {
   background-color: white;
@@ -488,7 +475,10 @@ main {
   width: 40px;
   right: 20px;
   top: 20px;
-  z-index: 3; }
+  z-index: 3;
+  -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out; }
 
 .mobile-expander__lines {
   position: fixed;
