@@ -647,7 +647,7 @@ main {
     .hero__title:before {
       background-color: #B8F4F1;
       content: '';
-      width: 100%;
+      width: 80%;
       display: block;
       position: absolute;
       z-index: -1;
