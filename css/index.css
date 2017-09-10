@@ -471,6 +471,8 @@ main {
   content: '';
   position: absolute;
   z-index: -1;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
   height: 40px;
   width: 40px;
   right: 20px;
